@@ -1,0 +1,38 @@
+/*Screen sizes*/
+/* Fonts */
+/* Font sizes */
+/* Colors */
+:root {
+  font-size: 16px;
+}
+
+html, body {
+  color: #222222;
+  background: #222222;
+  font-family: Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  height: 100%;
+}
+
+html a:hover, body a:hover {
+  text-decoration: none;
+}
+
+html .footer-login, body .footer-login {
+  bottom: 0;
+  color: #CCC;
+  display: block;
+  padding: 20px 15px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+html .footer-login .vidich-logo, body .footer-login .vidich-logo {
+  position: absolute;
+  bottom: 15px;
+  right: 45px;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>
+                Mil Zabores Veganos
+            </title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="/*poner fuentes*/">
+        <link rel="stylesheet" type="">
+    </head>
+    <body>
+        <header>
+            <section class="barraNavegacion">                
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="milzatips.html">Milzatips</a></li>
+                        <li><a href="conocenos.html">Conocenos!</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section class="contactanos">
+                <h2> 
+                    ¡Escribinos!
+                </h2> <br>
+                <p>Si querés comunicarte con nosotros o darnos alguna crítica constructiva, <br> ¡Completa el formulario!</p> <br> 
+                <form name= "contact_form" action="gracias.html" method="POST">
+                    <label name="form_nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="form_nombre" placeholder="Juan Perez" required/><br><br>
+                    <label mail="for_mail">Email</label>
+                    <input type="email" name="email" id="for_mail" placeholder="juanperez@mail.com" required/><br><br>
+                    <label name="form_telefono">Teléfono</label>
+                    <input type="tel" name="tel" id="form_email" placeholder="011********"/><br><br>
+                    <label name="form_mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="form_mensaje" rows="10" cols="35" required></textarea><br><br>                    
+                    <label for="form_novedades">¿Querés enterarte primero de nuestras novedades?</label>
+                    <input type="checkbox" name="novedades" id="form_novedades" checked="checked"/><br><br>
+                    <label></label> <!-- Si no ponia esto no me dejaba poner el boton de enviar-->
+                    <input type="submit" name="enviar_formulario" value="Enviar mensaje"/>
+                </form>
+            </section>
+        </main>
+    </body>
+    <footer>&copy;Copyright 2020 -  Mil Zabores Veganos.</footer>
+</html>
