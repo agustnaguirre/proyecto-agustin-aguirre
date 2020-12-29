@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url(../fonts/GlacialIndifference/GlacialIndifference-Regular.otf);    
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'Gagalin' ;
+  src: url(../fonts/Gagalin/OTF/Gagalin-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+} 
+html{
+  width: 100%;
+  body{
+    background-image: url(../images/fondo-vegetales3.png);
+    position: relative;
+    min-height: 1000px;
+    max-height: 2000px;
+  }
+  main{
+    margin-bottom:10px;
+  }
+}
+.barraNavegacion{
+  display: flex;
+  justify-content: space-around;
+  border: black;
+  nav{
+    background-image: linear-gradient(#fff5c0, #FDFEF1);
+    width: 100%;
+  }
+  h3{
+    padding-bottom: 45px;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+}
+ul{
+  text-align: center;
+  color: #2b2f17;
+  li{
+    display: inline-block;
+    justify-content: space-between;
+    font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    a{
+      text-decoration: none;
+      color: #2b2f17;
+      justify-content: space-between;
+    }
+    a:hover{
+      text-decoration: none;
+      color: #2b2f17;
+      transition: 0.5s;
+    }
+  }
+  li:hover{
+    transform: scale(1.4, 1.4);
+    transition: 1s;
+  }
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  div{
+    padding: 15px;
+    a{
+       img:hover{
+        transform: scale(1.5, 1.5);
+        transition: 1s;
+      }
+    }
+  }
+}
+.milZabores{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT';
+  padding-top: 60px;
+  font-size: 45px;
+}
+.veganos{
+  font-family: 'Gagalin', 'calibri';
+  padding-top: 60px;
+  font-size: 45px;
+}
+.fotosHome {
+  display: flex;
+  justify-content: center;    
+  margin-top: 60px;
+  align-items:center;
+}
+footer{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: relative;
+  padding: 10px;
+  background-image: linear-gradient(#FDFEF1, #fff5c0);
+  p{
+    text-align:center
+  }
+}
+.imgPrincipalProd{
+  div{
+    img{
+      transform: translate(240px, 30px);
+    }
+  }
+}
+.tituloProductos{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  transform: translate(250px, -30px);
+  color: #FDFEF1;
+}
+.productos{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  transform: translate(250px, 1px);
+  margin-top: 30px;
+  div{
+    p{
+      font-size: x-large;
+      font-weight: bold;
+    }
+    h2{
+      display: inline-block;
+      font-size: 16px;
+    }
+  }
+}
+#prodGrillas{
+  display: grid;
+  grid-template-areas: 
+  "prod1 prod2 prod3 prod4"
+  "prod5 prod6 prod7 prod8";
+  grid-template-columns: 300px 300px 300px 250px;
+  grid-template-rows: 300px 300px 300px 250px;
+}
+.prod1 {
+  grid-area: prod1;
+}
+.prod2 {
+  grid-area: prod2;    
+}
+.prod3 {
+  grid-area: prod3;
+}
+.prod4 {
+  grid-area: prod4;
+}
+.prod5 {
+  grid-area: prod5;
+}
+.prod6 {
+  grid-area: prod6;
+}
+.prod7 {
+  grid-area: prod7;
+}
+.prod8 {
+  grid-area: prod8;
+}
+.imgPrincipalTips{
+  div{
+    img{
+      transform: translate(300px, 20px);
+    }
+  }
+}
+.titulosTips{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  transform: translate(320px, -25px);
+  color: #FDFEF1;    
+  width: 60%;
+  h1{
+    color:black;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  p{
+    color: black;
+    font-size: medium;
+  }
+}
+.imgTips{
+  margin-left: -200px;
+}
+.articulosTips{
+  margin-top: 25px;
+}
+.tituloConocenos{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  transform: translate(320px, -30px);
+  color: #FDFEF1;
+  width: 60%;
+  p{
+    color: black;
+    font-size: medium;
+    display: inline-block;
+    transform: translate(-50px);
+    margin-top: 25px;
+  }
+}
+.imgPrincipalConocenos{
+  div{
+    img{
+      font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+      font-size: 25px;
+      font-weight: bolder;
+      transform: translate(317px, 20px);
+      color: #FDFEF1;
+      width: 60%;
+    }
+  }  
+}
+.contactanos{
+  font-family: 'GlacialIndifference', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 80px;
+  width: 80%;
+  transform: translate(400px);  
+  p{
+    font-size: 20px;
+  }
+  form{
+    font-size: 20px;
+  }
+}
